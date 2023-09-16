@@ -1,5 +1,5 @@
 import Head from "next/head";
-import {AiFillLinkedin, AiFillGithub, AiFillMail} from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 
 
 export default function Home() {
@@ -9,8 +9,8 @@ export default function Home() {
         <title>Kevin Thai Portfolio</title>
       </Head>
 
-      <main className="bg-gradient-to-b from-slate-900 to-gray-700 px-10">
-        <section className="min-h-screen">
+      <main>
+        <section className="min-h-screen bg-gradient-to-b from-slate-900 to-gray-700 px-10">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-mono">Kevin Thai</h1>
             <ul className="flex items-center">
@@ -23,12 +23,21 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-emerald-600 font-mono">Kevin Thai</h2>
-            <h3 className="text-2xl py-2 font-mono">Full Stack Web Developer</h3>
-            <p className="font-mono">Student at <span className="text-emerald-600">California State University Long Beach</span> graduating <span className="text-emerald-600">December 2023</span></p>
+          <div className="flex justify-center items-center">
+            <div className="text-center p-10">
+              <h2 className="text-5xl py-2 font-mono">Hello! I'm <span className="text-emerald-600">Kevin Thai</span></h2>
+              <h3 className="text-4xl py-2 font-mono">Full Stack Developer</h3>
+              <p className="font-mono">Student at <span className="text-emerald-600">California State University Long Beach</span></p>
+              <p className="font-mono py-2">Graduating <span className="text-emerald-600">December 2023</span></p>
+            </div>
           </div>
+        </section>
 
+        <section className="min-h-screen">
+          <div>
+            <h3 className="text-4xl text-emerald-600 font-mono justif-center font-bold">Skills</h3>
+            <p className="text-xl">Skills I've picked up through school and projects</p>
+          </div>
         </section>
       </main>
     </div>
