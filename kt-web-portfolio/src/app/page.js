@@ -2,6 +2,17 @@
 import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 import ParticleBG from './components/Particles';
+import Image from 'next/image';
+
+import cpp from '../app/assets/cpp.png';
+import angular from '../app/assets/angular.png';
+import cs from '../app/assets/cs.png';
+import html from '../app/assets/html.png';
+import javascript from '../app/assets/javascript.png';
+import mongodb from '../app/assets/mongodb.png';
+import python from '../app/assets/python.png';
+import react from "../app/assets/react.png";
+import tailwind from '../app/assets/tailwind.png';
 
 export default function Home() {
   return (
@@ -44,8 +55,19 @@ export default function Home() {
             <div>
               <h3 className="text-4xl text-emerald-600 font-sans justif-center font-bold px-10 py-5">Skills</h3>
             </div>
+
             <div className="text-center p-10">
-                
+              <div>
+                <Image src={ react } className="mx-auto w-20" />
+                <h3>React</h3>
+              </div>
+
+              <div>
+                <Image src={ angular } className="mx-auto w-20" />
+                <h3>Angular</h3>
+              </div>
+
+
             </div>
           </section>
         </div>
