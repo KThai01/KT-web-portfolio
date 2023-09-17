@@ -8,6 +8,9 @@ export default function ParticleBG() {
                   enable: false,
                   zIndex: -1,
                 },
+                background: {
+                  zIndex: -10
+                },
                 style: {
                     position: "absolute",
                     height: "100%",
@@ -15,8 +18,8 @@ export default function ParticleBG() {
                 },
                 particles: {
                   number: {
-                    value: 100,
-                    limit: 100,
+                    value: 50,
+                    limit: 60,
                     density: {
                       enable: true,
                       value_area: 500

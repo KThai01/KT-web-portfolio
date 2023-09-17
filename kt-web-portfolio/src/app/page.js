@@ -14,7 +14,7 @@ export default function Home() {
         <div className="bg-gradient-to-b from-slate-900 to-gray-700">
           <ParticleBG />
           <section className="h-screen">
-            <div>
+            <div className="">
               <nav className="py-10 px-10 mb-12 flex justify-end">
                 <ul className="flex items-center">
                   <li className="text-4xl flex gap-5"> 
@@ -39,7 +39,7 @@ export default function Home() {
           </section>
         </div>
 
-        <div className="min-h-screen bg-gray-900">
+        <div className="min-h-screen bg-gray-800">
           <section>
             <div>
               <h3 className="text-4xl text-emerald-600 font-sans justif-center font-bold px-10 py-5">Skills</h3>
