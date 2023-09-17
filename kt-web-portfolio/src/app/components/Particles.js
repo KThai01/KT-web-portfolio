@@ -11,6 +11,7 @@ export default function ParticleBG() {
                 style: {
                     position: "absolute",
                     height: "100%",
+                    zIndex: -1,
                 },
                 particles: {
                   number: {
