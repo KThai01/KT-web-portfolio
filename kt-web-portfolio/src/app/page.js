@@ -7,7 +7,6 @@ import Image from 'next/image';
 import cpp from '../app/assets/cpp.png';
 import angular from '../app/assets/angular.png';
 import cs from '../app/assets/cs.png';
-import html from '../app/assets/html.png';
 import javascript from '../app/assets/javascript.png';
 import mongodb from '../app/assets/mongodb.png';
 import python from '../app/assets/python.png';
