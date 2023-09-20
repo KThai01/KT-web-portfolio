@@ -39,7 +39,7 @@ export default function Home() {
         
           <div className="place-content-center">
             <div className="text-center p-10">
-              <h2 className="text-5xl sm:text-6xl py-2 font-sans">Hello! I'm <span className="text-emerald-600">Kevin Thai</span></h2>
+              <h2 className="text-5xl sm:text-6xl py-2 font-sans">Hello! I&apos;m <span className="text-emerald-600">Kevin Thai</span></h2>
               <h3 className="text-3xl sm:text-4xl py-2 font-sans">Software Engineer</h3>
               <p className="font-sans">Student at <span className="text-emerald-600">California State University Long Beach</span></p>
               <p className="font-sans py-2">Graduating <span className="text-emerald-600">December 2023</span></p>
@@ -54,48 +54,48 @@ export default function Home() {
           <div className="text-center mx-auto my-auto">
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 px-3 sm:gap-6">
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ react } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ react } className="mx-auto w-20 py-5 font-sans" alt={ react } />
                 <h3 className="font-sans text-lg my-4">React</h3>
               </div>
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ angular } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ angular } className="mx-auto w-20 py-5 font-sans" alt={ angular } />
                 <h3 className="font-sans text-lg my-4">Angular</h3>
               </div>
              
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ tailwind } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ tailwind } className="mx-auto w-20 py-5 font-sans" alt={ tailwind }/>
                 <h3 className="font-sans text-lg my-4">Tailwind</h3>
               </div>
 
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ bootstrap } className="mx-auto w-20 py-5 scale-125 font-sans" />
+                <Image src={ bootstrap } className="mx-auto w-20 py-5 scale-125 font-sans" alt={ bootstrap } />
                 <h3 className="font-sans text-lg my-4">Bootstrap</h3>
               </div>
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ javascript } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ javascript } className="mx-auto w-20 py-5 font-sans" alt={ javascript }/>
                 <h3 className="font-sans text-lg my-4">JavaScript</h3>
               </div>
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ mongodb } className="mx-auto w-20 scale-150 py-5" />
+                <Image src={ mongodb } className="mx-auto w-20 scale-150 py-5" alt={ mongodb }/>
                 <h3 className="font-sans text-lg my-4">MongoDB</h3>
               </div>
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ cpp } className="mx-auto w-20 py-5 scale-125 font-sans" />
+                <Image src={ cpp } className="mx-auto w-20 py-5 scale-125 font-sans" alt={ cpp }/>
                 <h3 className="font-sans text-lg my-4">C++</h3>
               </div>
               
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ cs } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ cs } className="mx-auto w-20 py-5 font-sans" alt={ cs } />
                 <h3 className="font-sans text-lg my-4">C#</h3>
               </div>
 
               <div className="shadow-lg shadow-gray-900 rounded-lg hover:scale-105 duration-500">
-                <Image src={ python } className="mx-auto w-20 py-5 font-sans" />
+                <Image src={ python } className="mx-auto w-20 py-5 font-sans" alt={ python }/>
                 <h3 className="font-sans text-lg my-4">Python</h3>
               </div>
             </div>
