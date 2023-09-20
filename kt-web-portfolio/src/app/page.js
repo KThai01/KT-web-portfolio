@@ -14,7 +14,6 @@ import python from '../app/assets/python.png';
 import react from "../app/assets/react.png";
 import tailwind from '../app/assets/tailwind.png';
 import bootstrap from '../app/assets/bootstrap.png';
-import sql from '../app/assets/sql.png';
 
 export default function Home() {
   return (
